@@ -25,14 +25,14 @@ module.exports = (sequelize) => {
       type: DataTypes.STRING,
       allowNull: false
     },
-    subRegión:{
+    subRegion:{
       type: DataTypes.STRING
     },
     area:{
-      type: DataTypes.STRING
+      type: DataTypes.INTEGER
     },
     population:{
-      type: DataTypes.STRING
+      type: DataTypes.INTEGER
     }
   });
 };
