@@ -10,7 +10,9 @@ import './App.css'
 
 function App() {
   return (
-    <Route exact path='/' component={LadingPage}/>
+    <>
+      <Route exact path='/' component={LadingPage}/>
+    </>
   );
 }
 
