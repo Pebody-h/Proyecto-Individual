@@ -1,0 +1,19 @@
+.Spinner {
+    width: 156px;
+    height: 156px;
+    border: 9px solid #22222200;
+    border-radius: 50%;
+    border-left-color: #04f;
+
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

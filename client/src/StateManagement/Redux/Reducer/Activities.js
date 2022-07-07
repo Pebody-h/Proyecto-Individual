@@ -2,7 +2,7 @@ import {
     POST_ACTIVITIES,
     GET_ACTIVITIES,
     PUT_ACTIVITY
-} from "../actions/Action_Types.js"
+} from "../Actions/Action_Types.js"
 
 const initialState = {
     activities : [],

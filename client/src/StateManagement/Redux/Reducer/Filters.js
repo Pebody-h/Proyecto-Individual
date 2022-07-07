@@ -3,14 +3,14 @@ import {
     ORDER_BY_NAME,
     ORDER_BY_POPULATION,
     SEARCHYNG
-} from "../actions/Action_Types.js"
+} from "../Actions/Action_Types.js"
 
 
 const initialState = {
-            searching: false,
-            order: "",
-            continent: "",
-        }
+    searching: false,
+    order: "",
+    continent: "",
+}
 
 const Filters = (state = initialState, action) => {
     switch (action.type) {

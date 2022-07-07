@@ -1,0 +1,39 @@
+.Form {
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 40%;
+    height: 100%;
+    margin: 20px;
+
+}
+
+.Form_text {
+    width: 65%;
+    height: 30%;
+    margin-top: 5%;
+    border: none;
+    background: #eee;
+    font-size: 18px;
+    color: #111;
+    transition: 0.5s;
+}
+
+.Form_text:active {
+    border-bottom: solid 2px #777;
+}
+
+.Form_submit {
+    width: 30%;
+    border: none;
+    background: #ddd;
+    transition: .1s;
+}
+
+.Form_submit:hover {
+    background: #2f3640;
+    border-bottom: solid 4px #0af;
+    font-weight: 700;
+    color: #0af;
+}
