@@ -1,0 +1,319 @@
+.contentInput input {
+    appearance: none;
+    margin: 30px;
+    display: inline-block;
+    width: 55%;
+    cursor: pointer;
+    padding: 7px 10px;
+    height: 42px;
+    outline: 0;
+    border: 0;
+    background: #D7D9A9;
+    font-size: 1em;
+    border-radius: 12px;
+    position: relative;
+    transition: all 0.25s ease;
+}
+
+.title {
+    color: #F2EDE4;
+}
+
+.title::placeholder {
+    color: #F2EDE4;
+}
+
+.contentInput input:hover {
+    background: #d8db77;
+}
+
+.contentInput1 select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 30px;
+}
+
+.contentInput1 select::-ms-expand {
+    display: none;
+}
+
+.contentInput1 {
+    max-width: 250px;
+    position: relative;
+}
+
+.contentInput1 select {
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+    padding: 7px 10px;
+    height: 42px;
+    outline: 0;
+    border: 0;
+    border-radius: 0;
+    background: #D7D9A9;
+    color: #F2EDE4;
+    font-size: 1em;
+    color: #F2EDE4;
+    border-radius: 12px;
+    position: relative;
+    transition: all 0.25s ease;
+}
+
+.contentInput1 select:hover {
+    background: #d8db77;
+}
+
+.contentInput1 i {
+    position: absolute;
+    right: 0px;
+    top: calc(50% - 13px);
+    width: 16px;
+    height: 16px;
+    display: block;
+    border-left: 4px solid #F2EDE4;
+    border-bottom: 4px solid #F2EDE4;
+    transform: rotate(-45deg);
+    /* Giramos el cuadrado */
+    transition: all 0.25s ease;
+}
+
+.contentInput1:hover i {
+    margin-top: 3px;
+}
+
+.contentInput2 select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 30px;
+}
+
+.contentInput2 select::-ms-expand {
+    display: none;
+}
+
+.contentInput2 {
+    max-width: 250px;
+    position: relative;
+}
+
+.contentInput2 select {
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+    padding: 7px 10px;
+    height: 42px;
+    outline: 0;
+    border: 0;
+    border-radius: 0;
+    background: #D7D9A9;
+    color: #F2EDE4;
+    font-size: 1em;
+    color: #F2EDE4;
+    border-radius: 12px;
+    position: relative;
+    transition: all 0.25s ease;
+}
+
+.contentInput2 select:hover {
+    background: #d8db77;
+}
+
+.contentInput2 i {
+    position: absolute;
+    right: 0px;
+    top: calc(50% - 13px);
+    width: 16px;
+    height: 16px;
+    display: block;
+    border-left: 4px solid #F2EDE4;
+    border-bottom: 4px solid #F2EDE4;
+    transform: rotate(-45deg);
+    /* Giramos el cuadrado */
+    transition: all 0.25s ease;
+}
+
+.contentInput2:hover i {
+    margin-top: 3px;
+}
+
+.contentInput3 select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 30px;
+}
+
+.contentInput3 select::-ms-expand {
+    display: none;
+}
+
+.contentInput3 {
+    max-width: 250px;
+    position: relative;
+}
+
+.contentInput3 select {
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+    padding: 7px 10px;
+    height: 42px;
+    outline: 0;
+    border: 0;
+    border-radius: 0;
+    background: #D7D9A9;
+    color: #F2EDE4;
+    font-size: 1em;
+    color: #F2EDE4;
+    border-radius: 12px;
+    position: relative;
+    transition: all 0.25s ease;
+}
+
+.contentInput3 select:hover {
+    background: #d8db77;
+}
+
+.contentInput3 i {
+    position: absolute;
+    right: 0px;
+    top: calc(50% - 13px);
+    width: 16px;
+    height: 16px;
+    display: block;
+    border-left: 4px solid #F2EDE4;
+    border-bottom: 4px solid #F2EDE4;
+    transform: rotate(-45deg);
+    /* Giramos el cuadrado */
+    transition: all 0.25s ease;
+}
+
+.contentInput3:hover i {
+    margin-top: 3px;
+}
+
+.contentInput4 select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 30px;
+}
+
+.contentInput4 select::-ms-expand {
+    display: none;
+}
+
+.contentInput4 {
+    max-width: 250px;
+    position: relative;
+}
+
+.contentInput4 select {
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+    padding: 7px 10px;
+    height: 42px;
+    outline: 0;
+    border: 0;
+    border-radius: 0;
+    background: #D7D9A9;
+    color: #F2EDE4;
+    font-size: 1em;
+    color: #F2EDE4;
+    border-radius: 12px;
+    position: relative;
+    transition: all 0.25s ease;
+}
+
+.contentInput4 select:hover {
+    background: #d8db77;
+}
+
+.contentInput4 i {
+    position: absolute;
+    right: 0px;
+    top: calc(50% - 13px);
+    width: 16px;
+    height: 16px;
+    border-left: 4px solid #F2EDE4;
+    border-bottom: 4px solid #F2EDE4;
+    transform: rotate(-45deg);
+    /* Giramos el cuadrado */
+    transition: all 0.25s ease;
+}
+
+.contentInput4:hover i {
+    margin-top: 3px;
+}
+
+label {
+    color: #bbbd50;
+}
+
+.span span {
+    color: #F2EDE4;
+    background-color: #d8db77;
+    text-decoration-color: #bbbd50;
+    font: #bbbd50;
+}
+
+.btn {
+    background-color: rgba(242, 237, 228, 0.1);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 25%;
+    box-shadow: 5px 7px 50px #D7D9A9;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+}
+
+.content {
+    width: 900px;
+}
+
+.form {
+    background-color: rgba(242, 237, 228, 0.1);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    width: 100%;
+    padding: 25px 25%;
+    box-shadow: 5px 7px 50px #D7D9A9;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+.contentButton {
+    text-align: center;
+}
+
+.buttonCustom {
+    padding: 5px 50px;
+    color: #F2EDE4;
+    background-color: #D7D9A9;
+    font-size: 16px;
+    border: 0;
+    border-radius: 12px;
+    transition: all 0.25s ease;
+}
+
+.contentButton input:hover {
+    background: #d8db77;
+}
+
+h2 {
+    text-align: center;
+}

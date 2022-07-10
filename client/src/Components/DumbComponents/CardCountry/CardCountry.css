@@ -1,0 +1,44 @@
+.card {
+    margin: 20px;
+    width: 340px;
+    overflow: hidden;
+    background-color: rgba(242, 237, 228, 0.1);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    border-radius: 15px;
+    box-shadow: 7px 13px 37px #D7D9A9;
+}
+
+.ContentFlag {
+    width: 100%;
+    height: 230px;
+    overflow: hidden;
+    position: relative;
+}
+
+.ContentFlag img {
+    width: 100%;
+    height: 230px;
+}
+
+.BasicInfo {
+    padding: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.BasicInfo h2 {
+    margin: .5em 0;
+    color: #bbbd50;
+}
+
+.BasicInfo h3 {
+    color: #bbbd50;
+}
+
+.btn {
+    width: 100%;
+    height: 80px;
+    padding: 30px;
+    text-align: center;
+}

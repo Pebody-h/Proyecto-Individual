@@ -1,0 +1,25 @@
+.ContainerPaginate {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 350px 1fr;
+}
+
+.ContainerCountries {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.Paginate {
+    padding: 30px 60px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    padding-bottom: 2px;
+}

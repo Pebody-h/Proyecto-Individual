@@ -1,0 +1,116 @@
+.containerp {
+    margin: 15%;
+    padding: 0;
+}
+
+.Container {
+    display: grid;
+    text-align: center;
+    align-content: center;
+    background-color: rgba(242, 237, 228, 0.1);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    box-shadow: 7px 13px 37px #D7D9A9;
+    border-radius: 15px;
+}
+
+.ContainerHijo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #bbbd50;
+    display: inline-block;
+}
+
+.text1 {
+    animation: bounce1 .5s alternate infinite ease-in;
+}
+
+.text2 {
+    width: 70px;
+    height: 70px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background: url('../../../Assets/logo-toro-.png');
+    background-size: cover;
+    animation: bounce2 .5s alternate infinite ease-in;
+}
+
+.text3 {
+    animation: bounce3 .5s alternate infinite ease-in;
+}
+
+@keyframes bounce1 {
+    0% {
+        transform: translateX(-40%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes bounce2 {
+    0% {
+        transform: translateY(-180%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes bounce3 {
+    0% {
+        transform: translateX(40%);
+    }
+
+    100% {
+        transform: translateX(-10%);
+    }
+}
+
+h2,
+p {
+    color: #bbbd50;
+    margin: 20px;
+}
+
+.psprite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sprit {
+    width: 35px;
+    height: 31px;
+    background-image: url('../../../Assets/SpriteEncapuchado.png');
+    margin: 10px;
+    animation: sprite 1s steps(5) infinite;
+    transform: scale(2);
+}
+
+@keyframes sprite {
+    0% {
+        background-position-x: 0;
+    }
+
+    100% {
+        background-position-x: -150px;
+    }
+}
+
+.ButtonHome {
+    margin: 20px;
+    font-size: 16px;
+    color: #F2EDE4;
+    text-decoration: none;
+    background-color: #D7D9A9;
+    border: none;
+    border-radius: 30px;
+    border-radius: 12px;
+}

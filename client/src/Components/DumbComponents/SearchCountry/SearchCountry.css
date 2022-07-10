@@ -1,39 +1,41 @@
 .Form {
-    align-self: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 40%;
-    height: 100%;
-    margin: 20px;
-
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
 }
 
-.Form_text {
-    width: 65%;
-    height: 30%;
-    margin-top: 5%;
-    border: none;
-    background: #eee;
-    font-size: 18px;
-    color: #111;
-    transition: 0.5s;
+.SearchBar {
+    padding: 4px;
 }
 
-.Form_text:active {
-    border-bottom: solid 2px #777;
+.SearchBar {
+    width: 200px;
+    height: 37px;
+    padding: 9px 25px;
+    font-size: 16px;
+    color: #D7D9A9;
+    outline: none;
+    border: 2px solid #D7D9A9;
+    border-radius: 30px;
+    text-align: center;
 }
 
-.Form_submit {
-    width: 30%;
-    border: none;
-    background: #ddd;
-    transition: .1s;
+.SearchBar::placeholder {
+    color: #D7D9A9;
 }
 
-.Form_submit:hover {
-    background: #2f3640;
-    border-bottom: solid 4px #0af;
-    font-weight: 700;
-    color: #0af;
+.submit {
+    background: #D7D9A9;
+    color: #F2EDE4;
+    border: 0;
+    font-size: 16px;
+    padding: 9px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+}
+
+.submit:hover {
+    background-color: #d8db77;
 }

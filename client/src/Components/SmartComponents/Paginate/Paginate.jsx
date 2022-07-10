@@ -41,7 +41,7 @@ function Paginate() {
         }
     }
     //lógica para filtrar países según el alfabeto o su población
-    const SortCountriesByName = FilterOrder === 'DESCENDENT' ? AllCountries.sort((a, b) => b.name.LocaleCompare(a.name)) : FilterOrder === 'ASCENDENT' ? AllCountries.sort((a, b) => a.name.LocaleCompare(b.name)) : AllCountries
+    const SortCountriesByName = FilterOrder === 'DESCENDENT' ? AllCountries.sort((a, b) => b.name.localeCompare(a.name)) : FilterOrder === 'ASCENDENT' ? AllCountries.sort((a, b) => a.name.localeCompare(b.name)) : AllCountries
     const SortCountries = FilterOrder === 'HIGHPOBLATION' ? SortCountriesByName.sort((a, b) => b.population - a.population) : FilterOrder === 'LOWPOBLATION' ? SortCountriesByName.sort((a, b) => a.population - b.population) : AllCountries
     //Mapeo de paises segun el filtro
     const CurrentCountries = FilterContinent !== '' ? SortCountries.filter(c => c.continent === FilterContinent).map(c =>

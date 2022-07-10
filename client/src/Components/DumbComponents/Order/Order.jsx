@@ -1,18 +1,26 @@
 import React from 'react'
 
+import './Order.css'
+
 function Order({ onSelectChange }) {
     return (
-        <div>
-            <select className="selecteBy" name="alphabetical" onChange={e => onSelectChange(e)} >
-                <option value="notOrder">Order A-Z</option>
-                <option value="ASCENDENT">Ascendent</option>
-                <option value="DESCENDENT">Descendent</option>
-            </select>
-            <select className="selecteBy" name="poblation" onChange={e => onSelectChange(e)} >
-                <option value="notOrder">Order by poblation</option>
-                <option value="HIGHPOBLATION">High Poblation</option>
-                <option value="LOWPOBLATION">Low Poblation</option>
-            </select>
+        <div className='containerp'>
+            <div className="selecteBy">
+                <select name="alphabetical" onChange={e => onSelectChange(e)} >
+                    <option value="notOrder">Ordenar Alfabeticamente</option>
+                    <option value="ASCENDENT">Ascendente</option>
+                    <option value="DESCENDENT">Descendente</option>
+                </select>
+                <i></i>
+            </div>
+            <div className='SelecteBy'>
+                <select name="poblation" onChange={e => onSelectChange(e)} >
+                    <option value="notOrder">Ordenar Por Población</option>
+                    <option value="HIGHPOBLATION">Mayor Población</option>
+                    <option value="LOWPOBLATION">Menor Población</option>
+                </select>
+                <i></i>
+            </div>
         </div>
     )
 }

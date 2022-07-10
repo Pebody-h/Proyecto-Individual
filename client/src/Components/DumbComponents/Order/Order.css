@@ -1,0 +1,111 @@
+.selecteBy select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 30px;
+}
+
+.selecteBy select::-ms-expand {
+    display: none;
+}
+
+.selecteBy {
+    max-width: 250px;
+    position: relative;
+}
+
+.selecteBy select {
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+    padding: 7px 10px;
+    height: 42px;
+    outline: 0;
+    border: 0;
+    border-radius: 0;
+    background: #D7D9A9;
+    color: #F2EDE4;
+    font-size: 1em;
+    color: #F2EDE4;
+    border-radius: 12px;
+    position: relative;
+    transition: all 0.25s ease;
+}
+
+.selecteBy select:hover {
+    background: #d8db77;
+}
+
+.selecteBy i {
+    position: absolute;
+    right: 0px;
+    top: calc(50% - 13px);
+    width: 16px;
+    height: 16px;
+    display: block;
+    border-left: 4px solid #F2EDE4;
+    border-bottom: 4px solid #F2EDE4;
+    transform: rotate(-45deg);
+    /* Giramos el cuadrado */
+    transition: all 0.25s ease;
+}
+
+.selecteBy:hover i {
+    margin-top: 3px;
+}
+
+.SelecteBy select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 30px;
+}
+
+.SelecteBy select::-ms-expand {
+    display: none;
+}
+
+.SelecteBy {
+    max-width: 250px;
+    position: relative;
+}
+
+.SelecteBy select {
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+    padding: 7px 10px;
+    height: 42px;
+    outline: 0;
+    border: 0;
+    border-radius: 0;
+    background: #D7D9A9;
+    color: #F2EDE4;
+    font-size: 1em;
+    color: #F2EDE4;
+    border-radius: 12px;
+    position: relative;
+    transition: all 0.25s ease;
+}
+
+.SelecteBy select:hover {
+    background: #d8db77;
+}
+
+.SelecteBy i {
+    position: absolute;
+    right: 0px;
+    top: calc(50% - 13px);
+    width: 16px;
+    height: 16px;
+    display: block;
+    border-left: 4px solid #F2EDE4;
+    border-bottom: 4px solid #F2EDE4;
+    transform: rotate(-45deg);
+    /* Giramos el cuadrado */
+    transition: all 0.25s ease;
+}
+
+.SelecteBy:hover i {
+    margin-top: 3px;
+}

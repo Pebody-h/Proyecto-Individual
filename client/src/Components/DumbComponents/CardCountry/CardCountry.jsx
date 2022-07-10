@@ -1,6 +1,8 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
+import './CardCountry.css'
+
 function CardCountry({ id, name, flagImage, continent, population }) {
     return (
         <div className="card">
@@ -8,18 +10,12 @@ function CardCountry({ id, name, flagImage, continent, population }) {
                 <img className="flagCountry" src={flagImage} alt="Imagen del país" />
             </div>
             <div className="BasicInfo">
-                <div className="nameCountry">
-                    <h3> {name} </h3>
-                </div>
-                <div className="Info">
-                    <label> {continent} </label>
-                </div>
-                <div className="Info">
-                    <span> population: {population} </span>
-                </div>
-                <div className="ContainerButtonCard">
-                    <NavLink to={`/country/${id}`}> <button className="ButtonCard"> Detalle del país </button> </NavLink>
-                </div>
+                <h2>{name}</h2>
+                <h3>Continente: {continent} </h3>
+                <h3>Población: {population} </h3>
+            </div>
+            <div className='btn'>
+                <NavLink to={`/country/${id}`}> <button className="ButtonCard"> Detalle del país </button> </NavLink>
             </div>
         </div>
     )

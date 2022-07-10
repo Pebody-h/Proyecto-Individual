@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
 body {
-    background-image: url('./Assets/Mundo-Fondo.png');
-    background-position: center center;
+    background-image: url('./Assets/imagen-toro-de-fondo.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;

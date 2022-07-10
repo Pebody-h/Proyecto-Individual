@@ -48,26 +48,22 @@ router.post('/', async (req, res) => {
     }
 })
 
-router.get("/activities", async (req,res) => {
-    // this request brings all activities created by users
-    // so that in the fontend it is updated in the filters
+router.get("/", async (req,res) => {
     try{
         const allActivities = await Activity.findAll({ include : Country })
-        // only an array of strings of the names is sent
         res.json( allActivities ) 
     } catch (err){
-        res.json({error:"Could not query or find activities"})
+        res.json({error:"No se pudieron consultar o encontrar actividades"})
     }
 })
 
-router.put("/activities/:id", async (req, res) => {
+router.put("/:id", async (req, res) => {
     const { id } = req.params;
     try{
         const activitiDelete = await Activity.destroy({where: {id}})
-        return res.send({deleteStatus: "Activity successfully removed"})
+        return res.send({deleteStatus: "Actividad eliminada con éxito"})
     } catch (error) {
-        // if the country does not exist, an error is displayed
-        res.json({ error: 'invalid id' })
+        res.json({ error: 'Id invalido' })
     }
 })
 
