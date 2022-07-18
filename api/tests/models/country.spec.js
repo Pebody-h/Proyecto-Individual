@@ -1,21 +1,18 @@
 const { Country, conn } = require('../../src/db.js');
 const { expect } = require('chai');
 
-describe('Country model', () => {
+describe('modelo de país', () => {
   before(() => conn.authenticate()
     .catch((err) => {
-      console.error('Unable to connect to the database:', err);
+      console.error('No se puede conectar a la base de datos:', err);
     }));
-  describe('Validators', () => {
+  describe('Validadores', () => {
     beforeEach(() => Country.sync({ force: true }));
-    describe('name', () => {
-      it('should throw an error if name is null', (done) => {
+    describe('nombre', () => {
+      it('debería arrojar un error si el nombre es nulo', (done) => {
         Country.create({})
-          .then(() => done(new Error('It requires a valid name')))
+          .then(() => done(new Error('Requiere un nombre válido')))
           .catch(() => done());
-      });
-      it('should work when its a valid name', () => {
-        Country.create({ name: 'Argentina' });
       });
     });
   });

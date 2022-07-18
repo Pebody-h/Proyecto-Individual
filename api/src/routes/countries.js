@@ -92,7 +92,7 @@ router.get('/', async (req, res) => {
             }
         }))
         // una ves cargados los datos en db los busco y respondo con ellos
-        if(allCountries.length > 0) res.status(202).json(allCountries)
+        if(allCountries.length > 0) res.status(200).json(allCountries)
         }
     }catch(error){
         console.log(error)
