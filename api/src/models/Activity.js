@@ -12,17 +12,6 @@ module.exports = (sequelize) => {
             validate: {
                 min: 1,
                 max: 5
-            //     validateNumber(value){
-            //         if(isNaN(value) === true){
-            //             throw new Error(`${value} no es un numero`)
-            //         }
-            //         if(!isNaN(value)){
-            //             let res = Number(value)
-            //             if(res < 1 || res > 5){
-            //                 throw new Error('La dificultad debe ser un numero estre 1 y 5')
-            //             }
-            //         }        
-            //     }
             }
         },
         duration:{
@@ -35,9 +24,3 @@ module.exports = (sequelize) => {
         }
     })
 }
-
-// ID
-// Nombre
-// Dificultad (Entre 1 y 5)
-// Duración
-// Temporada (Verano, Otoño, Invierno o Primavera)
