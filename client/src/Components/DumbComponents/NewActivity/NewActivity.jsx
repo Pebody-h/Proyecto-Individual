@@ -14,7 +14,7 @@ function NewActivity({ HandleChange, HandleBlur, HandleSubmit, ListCountries, St
                 <div className={style.form}>
                     <form className={style.preventStyle} onSubmit={e => HandleSubmit(e)}>
                         <div>
-                            <label> NOMBRE ACTIVIDAD:  </label>
+                            <label> NOMBRE ACTIVIDAD:  EJ: Natación</label>
                             <br />
                             <div className={style.contentInput}>
                                 <input className={style.title} type="text" name="name" onBlur={e => HandleBlur(e)} onChange={e => HandleChange(e)} placeholder="NOMBRE DE LA ACTIVIDAD" />

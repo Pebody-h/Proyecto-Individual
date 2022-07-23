@@ -9,7 +9,7 @@ function SearchBar() {
     const [input, setInput] = useState('')
     const Filter = AllCountries.filter(e => e.name === input)
     const Dispatch = useDispatch()
-    const handleChange = e => setInput(() => e.target.value)
+    const handleChange = e => setInput(() => e.target.value.toLowerCase())
     const handleSubmit = e => {
         if (input === '') return alert("Ingresa una ciudad")
         else if (Filter.length > 0) {

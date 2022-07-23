@@ -31,7 +31,8 @@ router.get('/', async (req, res) => {
             }
         }))
         // una ves cargados los datos en db los busco y respondo con ellos
-        if(allCountries.length > 0) res.status(200).json(allCountries)
+        const countris = await Country.findAll({include: {model: Activity}})
+        if(countris.length > 0) res.status(200).json(countris)
         }
     }catch(error){
         console.log(error)
